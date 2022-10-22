@@ -1,0 +1,10 @@
+# PEX packing
+/pex-packing/.venv
+/pex-packing/poetry.lock
+/pex-packing/sources
+/pex-packing/requirements.txt
+
+# Debian repository management
+/debian-repo/gpg.key
+/debian-repo/gpg.pass
+/debian-repo/packages/*.deb

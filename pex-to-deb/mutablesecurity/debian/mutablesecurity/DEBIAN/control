@@ -1,0 +1,11 @@
+Package: mutablesecurity
+Version: 0.4.0
+Architecture: amd64
+Maintainer: MutableSecurity <hello@mutablesecurity.io>
+Installed-Size: 18965
+Depends: python3
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://mutablesecurity.io
+Description: CLI tool for automating cybersecurity solutions

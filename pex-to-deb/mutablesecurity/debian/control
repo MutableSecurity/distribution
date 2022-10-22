@@ -1,0 +1,13 @@
+Source: mutablesecurity
+Section: misc
+Priority: optional
+Maintainer: MutableSecurity <hello@mutablesecurity.io>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.7
+Homepage: https://mutablesecurity.io
+
+Package: mutablesecurity
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}, python3
+Description: CLI tool for automating cybersecurity solutions

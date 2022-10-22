@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 15:41:28 +0300
+Source: mutablesecurity
+Binary: mutablesecurity
+Built-For-Profiles: noudeb
+Architecture: source amd64
+Version: 0.4.0
+Distribution: unstable
+Urgency: medium
+Maintainer: MutableSecurity <hello@mutablesecurity.io>
+Changed-By: MutableSecurity <hello@mutablesecurity.io>
+Description:
+ mutablesecurity - CLI tool for automating cybersecurity solutions
+Changes:
+ mutablesecurity (0.4.0) unstable; urgency=medium
+ .
+   * Packaged the 0.4.0 version
+Checksums-Sha1:
+ eb9270f3b653d2bac4eea94ecfb496712e0d1403 600 mutablesecurity_0.4.0.dsc
+ 6aef637f303171f37308f462b600bb7de29479f6 755208704 mutablesecurity_0.4.0.tar.gz
+ a413ddf1ee387846d3e6f5b80c60d67ddcd47779 6145 mutablesecurity_0.4.0_amd64.buildinfo
+ 8a54617603a2967143c5e6da0cbdc98f8c22f470 18387228 mutablesecurity_0.4.0_amd64.deb
+Checksums-Sha256:
+ 36651dc55aa8f346e01fcf8241cea39030436647e15cfdacf72a05bbe8639c5e 600 mutablesecurity_0.4.0.dsc
+ 1f0e1ce1108e98aaa98cf3ccd8279049d17f6afb94c5d50b07cecb6d68cdec7a 755208704 mutablesecurity_0.4.0.tar.gz
+ 3448625e571f939c33b20189ce6a60fb11e3baa14c3b71d4e7a9163372291216 6145 mutablesecurity_0.4.0_amd64.buildinfo
+ c841d811537c35ac28723d023489291ff4b6f4588aa45c2ab3292adfaf2fe3d6 18387228 mutablesecurity_0.4.0_amd64.deb
+Files:
+ d72dedd7e0ea4c1122d1c7a228f40fbc 600 misc optional mutablesecurity_0.4.0.dsc
+ d6e7ae0c97e71bc53ba6d16fed707dbb 755208704 misc optional mutablesecurity_0.4.0.tar.gz
+ e7ff1e82228271e2f60b240190d16bfc 6145 misc optional mutablesecurity_0.4.0_amd64.buildinfo
+ b9f1f46ec7d3f0ff13f99bf2401f88af 18387228 misc optional mutablesecurity_0.4.0_amd64.deb
