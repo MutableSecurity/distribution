@@ -15,6 +15,6 @@
 
 | Folder                          | Description                                         | Documentation                                                                  |
 |---------------------------------|-----------------------------------------------------|--------------------------------------------------------------------------------|
-| [`pex-packing`](./pex-packing/) | Packing the Python project into a PEX executable    | [Link](https://mutablesecurity.io/docs/developers/updating-the-pex-executable) |
+| [`pex-packing`](./pex-packing/) | Packing the Python project into a PEX executable    | [Link](https://mutablesecurity.io/docs/developers/updating-pex-executable) |
 | [`pex-to-deb`](./pex-to-deb/)   | Converting the PEX executable into a Debian package | [Link](https://mutablesecurity.io/docs/developers/updating-deb-package)        |
 | [`debian-repo`](./debian-repo/) | Managing the Debian repository                      | [Link](https://mutablesecurity.io/docs/developers/updating-debian-repo)        |
