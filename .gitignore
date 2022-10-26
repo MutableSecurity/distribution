@@ -1,7 +1,7 @@
 # PEX packing
+/pex-packing/sources/mutablesecurity
 /pex-packing/.venv
 /pex-packing/poetry.lock
-/pex-packing/sources
 /pex-packing/requirements.txt
 
 # Debian repository management
