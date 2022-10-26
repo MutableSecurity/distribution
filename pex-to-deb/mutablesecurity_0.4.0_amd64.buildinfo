@@ -4,17 +4,17 @@ Binary: mutablesecurity
 Architecture: amd64 source
 Version: 0.4.0
 Checksums-Md5:
- d72dedd7e0ea4c1122d1c7a228f40fbc 600 mutablesecurity_0.4.0.dsc
- b9f1f46ec7d3f0ff13f99bf2401f88af 18387228 mutablesecurity_0.4.0_amd64.deb
+ e7fd817bfc724249b28a7aebb6d5036f 585 mutablesecurity_0.4.0.dsc
+ ab398b96761a761f3d31ebc88490414c 18878034 mutablesecurity_0.4.0_amd64.deb
 Checksums-Sha1:
- eb9270f3b653d2bac4eea94ecfb496712e0d1403 600 mutablesecurity_0.4.0.dsc
- 8a54617603a2967143c5e6da0cbdc98f8c22f470 18387228 mutablesecurity_0.4.0_amd64.deb
+ 4335a5f7eeb669cf5544b7f3c7741c2971dd1ce2 585 mutablesecurity_0.4.0.dsc
+ 17963bed00f5543fd4c7eda526abf2d712a66680 18878034 mutablesecurity_0.4.0_amd64.deb
 Checksums-Sha256:
- 36651dc55aa8f346e01fcf8241cea39030436647e15cfdacf72a05bbe8639c5e 600 mutablesecurity_0.4.0.dsc
- c841d811537c35ac28723d023489291ff4b6f4588aa45c2ab3292adfaf2fe3d6 18387228 mutablesecurity_0.4.0_amd64.deb
+ 78a1a103718e1899784b389987de86c852a9e8b9709ddfa8a04af6ec22e70600 585 mutablesecurity_0.4.0.dsc
+ a4870535a47e3a2dcc785e8afd12c57ccbcaed1025079e2aa7f065eb8059c89e 18878034 mutablesecurity_0.4.0_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Fri, 21 Oct 2022 22:36:37 +0300
+Build-Date: Wed, 26 Oct 2022 20:42:18 +0300
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-programs

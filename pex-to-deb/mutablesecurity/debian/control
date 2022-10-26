@@ -9,5 +9,5 @@ Homepage: https://mutablesecurity.io
 Package: mutablesecurity
 Architecture: any
 Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}, python3
+Depends: ${misc:Depends}, ${shlibs:Depends}, python3, python3-distutils
 Description: CLI tool for automating cybersecurity solutions

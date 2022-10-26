@@ -6,6 +6,9 @@ export DH_VERBOSE = 1
 override_dh_strip:
 	echo "Skipping dh_strip as it will destroy AppImages"
 
+override_dh_builddeb:
+	dh_builddeb -- -Zgzip
+
 %:
 	dh $@
 

@@ -1,4 +1,4 @@
- dpkg-buildpackage -us -uc -ui -Zgzip -sd
+ dpkg-buildpackage -us -uc -ui -Zgzip
 dpkg-buildpackage: info: source package mutablesecurity
 dpkg-buildpackage: info: source version 0.4.0
 dpkg-buildpackage: info: source distribution unstable
@@ -11,10 +11,10 @@ dh: warning: Compatibility levels before 10 are deprecated (level 9 in use)
    dh_auto_clean
 dh_auto_clean: warning: Compatibility levels before 10 are deprecated (level 9 in use)
 	make -j1 clean
-make[1]: Entering directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/packing/pex-to-deb/mutablesecurity'
+make[1]: Entering directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity'
 echo "make clean"
 make clean
-make[1]: Leaving directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/packing/pex-to-deb/mutablesecurity'
+make[1]: Leaving directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity'
    dh_clean
 	rm -f debian/debhelper-build-stamp
 	rm -rf debian/.debhelper/
@@ -44,10 +44,10 @@ dh_auto_configure: warning: Compatibility levels before 10 are deprecated (level
    dh_auto_build
 dh_auto_build: warning: Compatibility levels before 10 are deprecated (level 9 in use)
 	make -j1
-make[1]: Entering directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/packing/pex-to-deb/mutablesecurity'
+make[1]: Entering directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity'
 echo "make all"
 make all
-make[1]: Leaving directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/packing/pex-to-deb/mutablesecurity'
+make[1]: Leaving directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity'
    dh_auto_test
 dh_auto_test: warning: Compatibility levels before 10 are deprecated (level 9 in use)
  fakeroot debian/rules binary
@@ -60,11 +60,11 @@ dh: warning: Compatibility levels before 10 are deprecated (level 9 in use)
    dh_auto_install --destdir=debian/mutablesecurity/
 dh_auto_install: warning: Compatibility levels before 10 are deprecated (level 9 in use)
 	install -d debian/mutablesecurity
-	make -j1 install DESTDIR=/home/iosifache/Documents/Projects/MUTABLESECURITY/packing/pex-to-deb/mutablesecurity/debian/mutablesecurity AM_UPDATE_INFO_DIR=no
-make[1]: Entering directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/packing/pex-to-deb/mutablesecurity'
-mkdir -p /home/iosifache/Documents/Projects/MUTABLESECURITY/packing/pex-to-deb/mutablesecurity/debian/mutablesecurity/usr//bin
-cp ../../pex-packing/mutablesecurity /home/iosifache/Documents/Projects/MUTABLESECURITY/packing/pex-to-deb/mutablesecurity/debian/mutablesecurity/usr//bin/
-make[1]: Leaving directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/packing/pex-to-deb/mutablesecurity'
+	make -j1 install DESTDIR=/home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity/debian/mutablesecurity AM_UPDATE_INFO_DIR=no
+make[1]: Entering directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity'
+mkdir -p /home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity/debian/mutablesecurity/usr//bin
+cp ../../pex-packing/mutablesecurity /home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity/debian/mutablesecurity/usr//bin/
+make[1]: Leaving directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity'
    dh_installdocs
 dh_installdocs: warning: Compatibility levels before 10 are deprecated (level 9 in use)
 	install -d debian/mutablesecurity/usr/share/doc/mutablesecurity
@@ -75,12 +75,14 @@ dh_installdocs: warning: Compatibility levels before 10 are deprecated (level 9 
    dh_perl
    dh_link
    dh_strip_nondeterminism
+	Using 1666356088 as canonical time
+	Normalizing debian/mutablesecurity/usr/bin/mutablesecurity using File::StripNondeterminism::handlers::pyzip
    dh_compress
 dh_compress: warning: Compatibility levels before 10 are deprecated (level 9 in use)
 	cd debian/mutablesecurity
 	chmod a-x usr/share/doc/mutablesecurity/changelog
 	gzip -9nf usr/share/doc/mutablesecurity/changelog
-	cd '/home/iosifache/Documents/Projects/MUTABLESECURITY/packing/pex-to-deb/mutablesecurity'
+	cd '/home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity'
    dh_fixperms
 	find debian/mutablesecurity -true -print0 2>/dev/null | xargs -0r chown --no-dereference 0:0
 	find debian/mutablesecurity ! -type l -a -true -a -true -print0 2>/dev/null | xargs -0r chmod go=rX,u+rw,a-s
@@ -91,10 +93,10 @@ dh_compress: warning: Compatibility levels before 10 are deprecated (level 9 in 
    dh_missing
 dh_missing: warning: Compatibility levels before 10 are deprecated (level 9 in use)
    debian/rules override_dh_strip
-make[1]: Entering directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/packing/pex-to-deb/mutablesecurity'
+make[1]: Entering directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity'
 echo "Skipping dh_strip as it will destroy AppImages"
 Skipping dh_strip as it will destroy AppImages
-make[1]: Leaving directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/packing/pex-to-deb/mutablesecurity'
+make[1]: Leaving directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity'
    dh_makeshlibs
 	rm -f debian/mutablesecurity/DEBIAN/shlibs
    dh_shlibdeps
@@ -113,19 +115,21 @@ dpkg-gencontrol: warning: Depends field of package mutablesecurity: substitution
 	cd debian/mutablesecurity >/dev/null && xargs -r0 md5sum | perl -pe 'if (s@^\\@@) { s/\\\\/\\/g; }' > DEBIAN/md5sums
 	chmod 0644 -- debian/mutablesecurity/DEBIAN/md5sums
 	chown 0:0 -- debian/mutablesecurity/DEBIAN/md5sums
-   dh_builddeb
-	dpkg-deb --build debian/mutablesecurity ..
+   debian/rules override_dh_builddeb
+make[1]: Entering directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity'
+dh_builddeb -- -Zgzip
+	dpkg-deb -Zgzip --build debian/mutablesecurity ..
 dpkg-deb: building package 'mutablesecurity' in '../mutablesecurity_0.4.0_amd64.deb'.
+make[1]: Leaving directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity'
  dpkg-genbuildinfo -O../mutablesecurity_0.4.0_amd64.buildinfo
- dpkg-genchanges -sd -O../mutablesecurity_0.4.0_amd64.changes
-dpkg-genchanges: warning: ignoring -sd option for native Debian package
+ dpkg-genchanges -O../mutablesecurity_0.4.0_amd64.changes
 dpkg-genchanges: info: including full source code in upload
  dpkg-source -Zgzip --after-build .
 dpkg-buildpackage: info: full upload; Debian-native package (full source is included)
 Now running lintian mutablesecurity_0.4.0_amd64.changes ...
 E: mutablesecurity changes: bad-distribution-in-changes-file unstable
 E: mutablesecurity: extended-description-is-empty
+W: mutablesecurity source: custom-compression-in-debian-rules dh_builddeb -- -Zgzip (line 10)
 W: mutablesecurity: no-manual-page usr/bin/mutablesecurity
 W: mutablesecurity source: package-uses-deprecated-debhelper-compat-version 9
-W: mutablesecurity: unusual-interpreter python3.10 [usr/bin/mutablesecurity]
 Finished running lintian.
