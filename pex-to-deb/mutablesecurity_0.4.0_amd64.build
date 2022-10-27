@@ -12,8 +12,9 @@ dh: warning: Compatibility levels before 10 are deprecated (level 9 in use)
 dh_auto_clean: warning: Compatibility levels before 10 are deprecated (level 9 in use)
 	make -j1 clean
 make[1]: Entering directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity'
-echo "make clean"
-make clean
+echo "clean" 
+clean
+rm -f debian/mutablesecurity/usr/bin/mutablesecurity
 make[1]: Leaving directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity'
    dh_clean
 	rm -f debian/debhelper-build-stamp
@@ -62,6 +63,8 @@ dh_auto_install: warning: Compatibility levels before 10 are deprecated (level 9
 	install -d debian/mutablesecurity
 	make -j1 install DESTDIR=/home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity/debian/mutablesecurity AM_UPDATE_INFO_DIR=no
 make[1]: Entering directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity'
+echo "install" 
+install
 mkdir -p /home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity/debian/mutablesecurity/usr//bin
 cp ../../pex-packing/mutablesecurity /home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity/debian/mutablesecurity/usr//bin/
 make[1]: Leaving directory '/home/iosifache/Documents/Projects/MUTABLESECURITY/distribution/pex-to-deb/mutablesecurity'

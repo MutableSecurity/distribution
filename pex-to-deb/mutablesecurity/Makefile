@@ -5,10 +5,10 @@ all:
 	echo "make all"
 
 .PHONY: clean
-clean :
-	echo "make clean"
+clean:
+	rm -f debian/mutablesecurity/usr/bin/mutablesecurity
 
 .PHONY: install
-install: 
+install:
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
 	cp ../../pex-packing/mutablesecurity $(DESTDIR)$(PREFIX)/bin/

@@ -16,17 +16,17 @@ Changes:
  .
    * Packaged the 0.4.0 version
 Checksums-Sha1:
- 4335a5f7eeb669cf5544b7f3c7741c2971dd1ce2 585 mutablesecurity_0.4.0.dsc
- df7bd3519b1908d468717b0142270bae973b94a6 1734 mutablesecurity_0.4.0.tar.gz
- d71ee3bf140ffa16f1b2854c9cd6cdfb67695290 6145 mutablesecurity_0.4.0_amd64.buildinfo
+ 7f890b0bd22b9eacec6ffc8600eb0e37e7227724 585 mutablesecurity_0.4.0.dsc
+ 0fedc5c9f2657adcdfc1f329eead731d9bb38ea7 1739 mutablesecurity_0.4.0.tar.gz
+ a49560299990f5f6adbfeb9a7ee304cd4b43caa6 6145 mutablesecurity_0.4.0_amd64.buildinfo
  17963bed00f5543fd4c7eda526abf2d712a66680 18878034 mutablesecurity_0.4.0_amd64.deb
 Checksums-Sha256:
- 78a1a103718e1899784b389987de86c852a9e8b9709ddfa8a04af6ec22e70600 585 mutablesecurity_0.4.0.dsc
- 72ba8dc96ca8d65fd3aa2513f111c1e9b3cba0e18ca5488c4517e29f39dc777f 1734 mutablesecurity_0.4.0.tar.gz
- 34df7d3fdd6e29956943a978568e0302617d5135687f08e82503807a76b55bb8 6145 mutablesecurity_0.4.0_amd64.buildinfo
+ b415d3deb00f01d0715143826010cd3407fe5a5bd83fd15ad2e8332d35a200ce 585 mutablesecurity_0.4.0.dsc
+ 9e8884ffcf7030f3c50aac888c48ed283f2f288c5050b58c4b2c675e7d31b617 1739 mutablesecurity_0.4.0.tar.gz
+ 197a37dea0a9356ac0960b68f683a0001b392de5052bd8a064e79457963721c9 6145 mutablesecurity_0.4.0_amd64.buildinfo
  a4870535a47e3a2dcc785e8afd12c57ccbcaed1025079e2aa7f065eb8059c89e 18878034 mutablesecurity_0.4.0_amd64.deb
 Files:
- e7fd817bfc724249b28a7aebb6d5036f 585 misc optional mutablesecurity_0.4.0.dsc
- bf030951ae782f4199025df0bd7d480e 1734 misc optional mutablesecurity_0.4.0.tar.gz
- ff1c752fc56dbb3988167bcff14fe31d 6145 misc optional mutablesecurity_0.4.0_amd64.buildinfo
+ ebd1adbc27c79abdedf88387f8b1529e 585 misc optional mutablesecurity_0.4.0.dsc
+ 205c140eaea55ad13a452db70266eb2a 1739 misc optional mutablesecurity_0.4.0.tar.gz
+ 6bbdab05d795ecdce0522e4470338dfd 6145 misc optional mutablesecurity_0.4.0_amd64.buildinfo
  ab398b96761a761f3d31ebc88490414c 18878034 misc optional mutablesecurity_0.4.0_amd64.deb

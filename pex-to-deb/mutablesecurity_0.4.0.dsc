@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 9)
 Package-List:
  mutablesecurity deb misc optional arch=any
 Checksums-Sha1:
- df7bd3519b1908d468717b0142270bae973b94a6 1734 mutablesecurity_0.4.0.tar.gz
+ 0fedc5c9f2657adcdfc1f329eead731d9bb38ea7 1739 mutablesecurity_0.4.0.tar.gz
 Checksums-Sha256:
- 72ba8dc96ca8d65fd3aa2513f111c1e9b3cba0e18ca5488c4517e29f39dc777f 1734 mutablesecurity_0.4.0.tar.gz
+ 9e8884ffcf7030f3c50aac888c48ed283f2f288c5050b58c4b2c675e7d31b617 1739 mutablesecurity_0.4.0.tar.gz
 Files:
- bf030951ae782f4199025df0bd7d480e 1734 mutablesecurity_0.4.0.tar.gz
+ 205c140eaea55ad13a452db70266eb2a 1739 mutablesecurity_0.4.0.tar.gz
