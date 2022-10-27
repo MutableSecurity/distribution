@@ -1,0 +1,42 @@
+Origin: Freight
+Label: 
+Suite: bullseye
+Codename: bullseye
+NotAutomatic: no
+ButAutomaticUpgrades: no
+Components: main 
+Architectures: i386 amd64
+Date: Thu, 27 Oct 2022 09:19:16 UTC
+Valid-Until: Tue, 30 Nov 2038 00:00:00 UTC
+MD5Sum:
+ ab398b96761a761f3d31ebc88490414c 18878034 .refs/main/mutablesecurity_0.4.0_amd64.deb
+ b8b787a0e2be2339caae362a36bf94c9 198 main/binary-i386/Release
+ 92a9aa051ef5ef90718403b64cf2b668 29 main/binary-i386/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-i386/Packages
+ 86c7f453e59f559d9fab6fa61f9ad051 199 main/binary-amd64/Release
+ f00e7368994b6ff704c37c60d92b07f9 491 main/binary-amd64/Packages.gz
+ 7af5e45a5032883a8e4c025b8d9d0905 717 main/binary-amd64/Packages
+SHA1:
+ 17963bed00f5543fd4c7eda526abf2d712a66680 18878034 .refs/main/mutablesecurity_0.4.0_amd64.deb
+ c04a28d6e4ab6565f6ae53170117e13837850a56 198 main/binary-i386/Release
+ f1e667d86a5fc4ac6e2304bdd9fe7cb1279abf23 29 main/binary-i386/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-i386/Packages
+ 8b0fb787866eec47ba64a584cf133ce9908978c0 199 main/binary-amd64/Release
+ 9e8ab207c5b6c5c373ce8b3b7178f548ea293e1b 491 main/binary-amd64/Packages.gz
+ 2ef30e3a5f216540ac48890b5117dd34a091461f 717 main/binary-amd64/Packages
+SHA256:
+ a4870535a47e3a2dcc785e8afd12c57ccbcaed1025079e2aa7f065eb8059c89e 18878034 .refs/main/mutablesecurity_0.4.0_amd64.deb
+ 001e8e4ca11fe7ed49941cf4747080ccde6a558fd5306ef0eeb9d1c09727c5b0 198 main/binary-i386/Release
+ 4b20f48eb2f70de2d2ddf6df5d976618156c01860fc3acee9f2655dd32c8878f 29 main/binary-i386/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-i386/Packages
+ bed19101303eb0e7332a497406cf312e24006361d9c5cebc7ad2b7c4eb16fb7c 199 main/binary-amd64/Release
+ 9581d681b2b2cb57963a2ea1a05024061ddc4d54df0533c2072772d0198c4085 491 main/binary-amd64/Packages.gz
+ e4a3ee2845729a1df5d238106f49c1ac0d196c880d8007ee04c4150bcced68c8 717 main/binary-amd64/Packages
+SHA512:
+ 026634826495c9364f5afa347c0700143c55725e61869f403c1ffc85df5f0d624e45b2e60c9261b6d345d0b175b1f37ed371c95965ba3e9561295cc0dd0c1258 18878034 .refs/main/mutablesecurity_0.4.0_amd64.deb
+ b3f72ee01a9b0b399c52c26f471a00ef531bb4e786247c6010d4ef4a49fa0e14adb9d60c057bc91fa775d9842e472ab4101b11b96b0367ac2b1cbbfbbd5cc813 198 main/binary-i386/Release
+ b4fa6d3b89f67279d8b49bfe0afc872b1c5365262daab55a06e6f1fdcd04d1dfdefaf2b733091de1fd7ffc10c6a10987cd95508a6bc0077e99e905e7582047f5 29 main/binary-i386/Packages.gz
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e 0 main/binary-i386/Packages
+ c2b69f09805c2117e9f7886e42bc3c936c71588d63899b913d1f9cbfee01f8b89a378d2297cf57ae2aeda9fbfe99011b7f0d6e51afa9d6daec7f761deb2501d9 199 main/binary-amd64/Release
+ 2663f3f76f78b754582b3eb27673ba4e4c3dee76e750f1f12e21179cb7c68b100d984aa38d16da53f5b4bfe3a1aac9b44ec5dc50724e8c24bbcba90c07b56690 491 main/binary-amd64/Packages.gz
+ 70dbf65c231d4024303f4ba1ba3a3e82fe3c36aa7b527a5ab1689107f53d98402318434b250d81811742bb128127ed7e2d30271fcb594f02094f49677e924f1e 717 main/binary-amd64/Packages

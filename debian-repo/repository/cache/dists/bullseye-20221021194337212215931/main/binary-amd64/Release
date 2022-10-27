@@ -1,9 +1,0 @@
-Archive: bullseye
-Component: main
-Origin: Freight
-Label: 
-NotAutomatic: no
-ButAutomaticUpgrades: no
-Architecture: amd64
-Date: Fri, 21 Oct 2022 19:43:37 UTC
-Valid-Until: Tue, 30 Nov 2038 00:00:00 UTC

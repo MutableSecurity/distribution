@@ -1,0 +1,18 @@
+Package: mutablesecurity
+Version: 0.4.0
+Architecture: amd64
+Maintainer: MutableSecurity <hello@mutablesecurity.io>
+Installed-Size: 19001
+Depends: python3, python3-distutils
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://mutablesecurity.io
+Description: CLI tool for automating cybersecurity solutions
+Filename: pool/bullseye/main/m/mutablesecurity/mutablesecurity_0.4.0_amd64.deb
+MD5sum: ab398b96761a761f3d31ebc88490414c
+SHA1: 17963bed00f5543fd4c7eda526abf2d712a66680
+SHA256: a4870535a47e3a2dcc785e8afd12c57ccbcaed1025079e2aa7f065eb8059c89e
+SHA512: 026634826495c9364f5afa347c0700143c55725e61869f403c1ffc85df5f0d624e45b2e60c9261b6d345d0b175b1f37ed371c95965ba3e9561295cc0dd0c1258
+Size: 18878034
+
